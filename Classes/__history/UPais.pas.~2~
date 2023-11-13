@@ -1,0 +1,25 @@
+unit UPais;
+
+interface
+type TPais = class ()
+              private
+
+
+
+              protected
+                id:integer;
+                descricao:string;
+                Idioma:string;
+                Moeda:string;
+
+
+              public
+
+                constructor create;
+                destructor destroy;
+                procedure setId(vId:integer);
+                function getId:integer;
+end;
+implementation
+
+end.
